@@ -45,7 +45,7 @@
   top: 0;
   width: 100%;
   z-index: 5;
-  background: linear-gradient(90deg, rgba(44,62,80,0.4682247899159664) 27%, rgba(188,207,29,0.5718662464985995) 38%, rgba(188,207,29,0.5718662464985995) 60%, rgba(44,62,80,0.4682247899159664) 78%);
+  background: black;
   padding: 39px 40px 0 45px;
   border-bottom: 2px solid rgba(255, 255, 255, 0.1);
 }
