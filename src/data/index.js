@@ -10,7 +10,6 @@ export const NavLinks = [
   {
     name: "Anasayfa",
     url: "/",
-
   },
   {
     name: "HAKKIMIZDA",
@@ -45,7 +44,6 @@ export const NavLinks = [
   {
     name: "Referanslarımız",
     url: "/portfolio",
-
   },
 
   {
@@ -158,9 +156,6 @@ export const ContactInfosList = [
       },
     ],
   },
-
-
-
 ];
 
 export const ContactFormTitle = {
@@ -266,16 +261,9 @@ export const BlogTwoData = [
   },
 ];
 
+export const BlogSidebarPost = [];
 
-
-
-export const BlogSidebarPost = [
-
-];
-
-export const BlogComments = [
-
-];
+export const BlogComments = [];
 
 import portfolio02 from "@/images/portfolio/2.jpg";
 import portfolio03 from "@/images/portfolio/3.jpg";
@@ -285,7 +273,6 @@ import portfolio08 from "@/images/portfolio/s-8.jpg";
 import portfolio09 from "@/images/portfolio/9.jpg";
 
 export const PortfolioData = [
-
   {
     title: "Next Level Photography",
     categories: ["all", "photography"],
@@ -340,8 +327,7 @@ import portfolioD02 from "@/images/portfolio/8.jpg";
 export const PortfolioDetailsData = {
   gallery: [{ image: portfolioD01 }, { image: portfolioD02 }],
   title: "Tasarım",
-  text:
-    "",
+  text: "",
   client: "",
   categories: [
     {
@@ -373,22 +359,19 @@ export const PortfolioDetailsData = {
 export const ServicePostData = [
   {
     title: "Modern Tasarım",
-    text:
-      "Next Level Dijital Sizlere modern ve yenilikçi hizmetler sunar",
+    text: "Next Level Dijital Sizlere modern ve yenilikçi hizmetler sunar",
     iconName: "next-settings",
     url: "/service-details",
   },
   {
     title: "Dijital Ürünler",
-    text:
-      "Next Level Dijital Sizlere modern ve yenilikçi hizmetler sunar",
+    text: "Next Level Dijital Sizlere modern ve yenilikçi hizmetler sunar",
     iconName: "next-transfer",
     url: "/service-details",
   },
   {
     title: "Market Stratejisi",
-    text:
-      "Next Level Dijital Sizlere modern ve yenilikçi hizmetler sunar",
+    text: "Next Level Dijital Sizlere modern ve yenilikçi hizmetler sunar",
     iconName: "next-pie-chart",
     url: "/service-details",
   },
@@ -396,7 +379,8 @@ export const ServicePostData = [
 
 export const ServiceHomeTwoData = {
   subTitle: "Next Level Dijital",
-  title: "Sizlere özgün dijital hizmetler sunuyor \n markanızın büyümesinde yardımcı oluyoruz.",
+  title:
+    "Sizlere özgün dijital hizmetler sunuyor \n markanızın büyümesinde yardımcı oluyoruz.",
   text:
     "Siz değerli müşterilerimize en iyi hizmeti sunmak istiyoruz\n Deneyimli ekibimiz ile siz ve markanız için buradayız.",
 };
@@ -412,8 +396,7 @@ export const ServicePostTwoData = {
   sectionContent: {
     title: " GAZİANTEP'İN  \n YENİ NESİL DİJİTAL REKLAM AJANSIYIZ.",
     subTitle: "Sunduğumuz Hizmetler",
-    text:
-      "Markalar Burada Büyüyecek \n ",
+    text: "Markalar Burada Büyüyecek \n ",
   },
   posts: [
     {
@@ -441,7 +424,6 @@ export const ServicePostTwoData = {
       iconName: "mei-development",
       url: "/film-details",
     },
-
   ],
 };
 
@@ -499,7 +481,8 @@ import trustClient01 from "@/images/home_1/4.jpg";
 export const TrustClientData = {
   image: trustClient01,
   title: "50'den fazla mutlu müşteri ile çalışıyoruz",
-  text: "Next Level Dijital Sizlere şirketinize yenilik katma fırsatı sunar. Markanızı ön plana çıkartmak, yaratıcı reklamlar ile yeni müşterilerinizin dikkatini çekmek artık çok kolay. Sadece bizimle iletişime geçin ve markanız için en uygun dijital pazarlama ajansı ile tanışın.",
+  text:
+    "Next Level Dijital Sizlere şirketinize yenilik katma fırsatı sunar. Markanızı ön plana çıkartmak, yaratıcı reklamlar ile yeni müşterilerinizin dikkatini çekmek artık çok kolay. Sadece bizimle iletişime geçin ve markanız için en uygun dijital pazarlama ajansı ile tanışın.",
   url: "/about",
 };
 
@@ -565,8 +548,7 @@ export const TeamOneData = {
   sectionContent: {
     title: "Bizi Tanıyın",
     subTitle: "Profesyonel ekimiz",
-    text:
-      "Deneyimli ekibimiz ile siz ve markanız için buradayız.",
+    text: "Deneyimli ekibimiz ile siz ve markanız için buradayız.",
   },
   posts: [
     {
@@ -592,7 +574,6 @@ export const TeamOneData = {
       designation: "Social Media Manager",
       url: "",
       socials: [
-
         {
           name: "Linkedin",
           url: "#",
@@ -634,13 +615,13 @@ export const TeamOneData = {
 
     {
       image: team06,
-      name: "Kevser",
-      designation: "Intern",
+      name: "Emin Türk",
+      designation: "PHOTOGRAPHER",
       url: "#",
       socials: [
         {
           name: "Linkedin",
-          url: "https://www.linkedin.com/in/kevser-fak%C4%B1o%C4%9Flu-118b55207/",
+          url: "https://www.linkedin.com/in/emin-turk/",
         },
       ],
     },
@@ -662,9 +643,7 @@ export const VideoOneData = {
   },
 };
 
-export const SubscribeFormData = {
-
-};
+export const SubscribeFormData = {};
 
 import testimonial01 from "@/images/clients/c25.png";
 import testimonial02 from "@/images/clients/c17.png";
@@ -680,24 +659,26 @@ export const TestimonialsOneData = {
       name: "Mabel Güzellik ",
       designation: "Sağlık&Güzellik",
       image: testimonial01,
-      content: "22 Şubemizin tanıtım filmleri başarı ile çekildi, ayrıca sosyal medya yönetimi ve web sitemizden de çok memnunuz, Next Level Dijital'e hizmetlerinden dolayı teşekkür ederiz.",
+      content:
+        "22 Şubemizin tanıtım filmleri başarı ile çekildi, ayrıca sosyal medya yönetimi ve web sitemizden de çok memnunuz, Next Level Dijital'e hizmetlerinden dolayı teşekkür ederiz.",
       date: "9 eyl, 2021",
     },
     {
       name: "GÖRGÜLÜ İnşaat A.Ş",
       designation: "İnşaat",
       image: testimonial02,
-      content: "Sosyal medya yönetimimizi ve tanıtım filmlerimizi next level dijital üstlendi, Firmamız için yaptıkları harika işler için teşekkür ederiz. ",
+      content:
+        "Sosyal medya yönetimimizi ve tanıtım filmlerimizi next level dijital üstlendi, Firmamız için yaptıkları harika işler için teşekkür ederiz. ",
       date: "10 eyl, 2021",
     },
     {
       name: "GÖKLER Yapı",
       designation: "İnşaat",
       image: testimonial03,
-      content: "Firmamız için yaptığı özgün içerikler, kaliteli sosyal medya yönetimi için Next Level Dijital'e Gökler Yapı olarak teşekkürlerimizi iletiyoruz.",
+      content:
+        "Firmamız için yaptığı özgün içerikler, kaliteli sosyal medya yönetimi için Next Level Dijital'e Gökler Yapı olarak teşekkürlerimizi iletiyoruz.",
       date: "8 eyl, 2021",
     },
-
   ],
 };
 
@@ -709,12 +690,14 @@ export const FeatureTabData = {
   sectionContent: {
     title: "Neden bizi seçmelisiniz?",
     subTitle: "Markanıza en uygun paketler",
-    text: "Markanız için en uygun paketleri sizler için özelleştirip markanız için çalışmaya başlıyoruz.\n Siz de hemen Next Level Dijital ile markanıza değer katın!",
+    text:
+      "Markanız için en uygun paketleri sizler için özelleştirip markanız için çalışmaya başlıyoruz.\n Siz de hemen Next Level Dijital ile markanıza değer katın!",
   },
   posts: [
     {
       title: "EN YENİ TEKNOLOJİLER",
-      content: "Siz müşterilerimize en iyi hizmeti verebilmek için güncel teknoloji ve güçlü araçlardan faydalanıyoruz.",
+      content:
+        "Siz müşterilerimize en iyi hizmeti verebilmek için güncel teknoloji ve güçlü araçlardan faydalanıyoruz.",
       image: featureTab01,
       lists: [
         {
@@ -729,7 +712,6 @@ export const FeatureTabData = {
         {
           item: "Yaptığı işi seven profesyonel bir ekip",
         },
-
       ],
     },
     {
@@ -747,7 +729,6 @@ export const FeatureTabData = {
         {
           item: "Siz müşterilerimize yardımcı olmaya hazır profesyonel ekip",
         },
-
       ],
     },
     {
@@ -764,7 +745,6 @@ export const FeatureTabData = {
         {
           item: "Müşteri analizi",
         },
-
       ],
     },
   ],
@@ -774,8 +754,7 @@ export const ParallaxOneData = {
   iconName: "next-team",
   title: "ŞAHANE İŞLER TEK BİR KİŞİ TARAFINDAN YAPILAMAZ",
   specialText: " BAŞARI BİR EKİP İŞİDİR.",
-  text:
-    "Müşterilerimize alışılmadık bir hizmet sunmayı taahhüt ediyoruz.",
+  text: "Müşterilerimize alışılmadık bir hizmet sunmayı taahhüt ediyoruz.",
 };
 
 export const PortfolioHomeData = {
@@ -793,8 +772,7 @@ export const VideoTwoData = {
   sectionContent: {
     title: "DİJİTAL DENEYİM",
     subTitle: "Neden Next Level Dijital?",
-    text:
-      "200'ü aşkın müşteri ile \n Dijital Deneyim sahibi bir ekip!",
+    text: "200'ü aşkın müşteri ile \n Dijital Deneyim sahibi bir ekip!",
   },
   video: {
     title: "",
@@ -810,7 +788,8 @@ export const AboutTwoData = {
   sectionContent: {
     title: "GAZİANTEP'İN EN İDDİALI DİJİTAL PAZARLAMA AJANSIYIZ!",
     subTitle: "NEXT LEVEL DİJİTAL PAZARLAMA AJANSI ",
-    text: "Sosyal medya yönetimi, Drone çekimleri, Web yazılım ve daha bir çok hizmetimiz ile markanızı ön plana çıkartmak için bizimle iletişime geçin!",
+    text:
+      "Sosyal medya yönetimi, Drone çekimleri, Web yazılım ve daha bir çok hizmetimiz ile markanızı ön plana çıkartmak için bizimle iletişime geçin!",
   },
   button: {
     label: "İLETİŞİME GEÇ",
@@ -861,4 +840,3 @@ export const CallToActionTwoData = [
     url: "/contact",
   },
 ];
-
