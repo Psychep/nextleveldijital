@@ -580,26 +580,7 @@ export const TeamOneData = {
         },
       ],
     },
-    {
-      image: team03,
-      name: "Salih Güngörmez",
-      designation: "Full Stack Developer",
-      url: "#",
-      socials: [
-        {
-          name: "SALIHGUNGORMEZ.ME",
-          url: "https://www.salihgungormez.me",
-        },
-        {
-          name: "Github",
-          url: "https://github.com/Psychep",
-        },
-        {
-          name: "Linkedin",
-          url: "https://www.linkedin.com/in/salihgungormez/",
-        },
-      ],
-    },
+  
     {
       image: team04,
       name: "Yasin TOPRAK",
